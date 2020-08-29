@@ -1,0 +1,10 @@
+docker build -t lmt27/reactfullcycle .
+
+docker run -p 3000:3000 lmt27/reactfullcycle
+
+docker push lmt27/reactfullcycle:latest
+
+
+docker build -t reactfullcycle .
+
+docker run -p 3000:3000 reactfullcycle
